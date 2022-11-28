@@ -41,6 +41,17 @@ body {
   max-width: 1200px;
   padding: 0 15px;
 }
+.emptyHeader {
+  display: inline-block;
+  height: 0;
+}
+.overflowContainer {
+  position: relative;
+  overflow: hidden;
+}
+.overflowContainer img {
+  display: block;
+}
 .header {
   display: flex;
   height: 80px;
@@ -492,11 +503,6 @@ body {
   padding-bottom: 20px;
 }
 
-.emptyHeader {
-  display: inline-block;
-  height: 0;
-}
-
 .items {
   gap: 27px;
   list-style: none;
@@ -546,10 +552,7 @@ body {
 .items li:hover .items__div {
   transform: translate(0, 0);
 }
-.overflowContainer {
-  position: relative;
-  overflow: hidden;
-}
+
 .backdrop {
   display: flex;
   position: fixed;
@@ -582,9 +585,7 @@ body {
   fill: var(--secondary-color);
   stroke: var(--secondary-color);
 }
-.overflowContainer img {
-  display: block;
-}
+
 .modal__header {
   font-weight: 700;
   font-size: 20px;
