@@ -42,10 +42,10 @@
    
     <label class=modal__terms>
       <input class="modal__checkbox" type="checkbox" name="terms">
-      
+      <span>
         <svg class="modal__icon" width="16" height="15">
         <use href="./images/icons.svg#icon-checkbox"></use></svg>
-        <span class="modal__terms__text">I agree with the newsletter and accept the <a href="#">Terms</a> and <a href="#"> Conditions</a> </span>
+      <span class="modal__terms__text"> I agree with the newsletter and accept the <a href="#">Terms</a> and <a href="#"> Conditions</a></span> </span>
      
 
     </label>
@@ -65,7 +65,7 @@
                 >Web<span class="logo-header">Studio</span></a
               >
               <ul class="header__navbar-links">
-                <li><a href="./index.html" class="header__navbar-link currentPage">Studio</a></li>
+                <li><a href="./index.html" class="header__navbar-link current__highlight">Studio</a></li>
                 <li>
                   <a href="./portfolio.html" class="header__navbar-link">Portfolio</a>
                 </li>
@@ -73,14 +73,14 @@
               </ul>
             </nav>
             <ul class="header__navbar-contacts">
-              <li>
+              <li class="header__navbar-contacts-list">
                 <a href="mailto:info@devstudio.com" class="header__navbar-adress">
                   <svg class="contactIcon" width="16" height="12"><use href="./images/icons.svg#icon-envelope"></use></svg>
 
                   info@devstudio.com
                 </a>
               </li>
-              <li>
+              <li class="header__navbar-contacts-list">
                 <a href="Tel:+380961111111" class="header__navbar-adress">
                 <svg class="contactIcon" width="10" height="16"><use href="./images/icons.svg#icon-smartphone"></use></svg>
                 
@@ -107,7 +107,7 @@
 
       <section class="rules section">
         <div class="container">
-          <h2 class="emptyHeader"></h2>
+          <h2 class="header-empty"></h2>
           <ul class="rules__list">
             <li class="rules__list-item">
               <div class="rules__list-item-bg"><svg class="rules__list-icon" width="70" height="70"><use href="./images/icons.svg#icon-antenna"></use></svg> </div>
@@ -149,7 +149,7 @@
           <div class="wwd">
           <h2 class="wwd-title">What we do</h2>
           <ul class="wwd__list">
-            <li>
+            <li class="wwd__list__element">
               <img
                 src="./images/wwd1.jpg"
                 width="370"
@@ -158,7 +158,7 @@
               />
               <div class="wwd__list-description"><p class="wwd__list-text">DESKTOP APPS</p></div>
             </li>
-            <li>
+            <li class="wwd__list__element">
               <img
                 src="./images/wwd2.jpg"
                 width="370"
@@ -167,7 +167,7 @@
               />
               <div class="wwd__list-description"><p class="wwd__list-text">Mobile APPS</p></div>
             </li>
-            <li>
+            <li class="wwd__list__element">
               <img
                 src="./images/wwd3.jpg"
                 width="370"
@@ -184,9 +184,9 @@
       <section class="team section">
         <div class="container">
 <div class="team__div">
-        <h2 class="sectionTitle">Our Team</h2>
+        <h2 class="section__title">Our Team</h2>
         <ul class="team__list">
-          <li >
+          <li class="team__list__element">
             <img
               src="./images/teammember1.jpg"
               width="270"
@@ -197,15 +197,15 @@
             <h3 class="team__member-name">Christopher Walker</h3>
             <p class="team__member-description">Product Designer</p>
             <ul class="team__member-socials">
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
             </ul>
             </div>
           </li>
           
-          <li>
+          <li class="team__list__element">
             <img
               src="./images/teammember2.jpg"
               width="270"
@@ -216,14 +216,14 @@
             <h3 class="team__member-name">Kylie Evans</h3>
             <p class="team__member-description">Frontend Developer</p>
             <ul class="team__member-socials">
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
             </ul>
             </div>
           </li>
-          <li>
+          <li class="team__list__element">
             <img
               src="./images/teammember3.jpg"
               width="270"
@@ -234,14 +234,14 @@
             <h3 class="team__member-name">Ryan Harris</h3>
             <p class="team__member-description">Marketing</p>
             <ul class="team__member-socials">
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
             </ul>
             </div>
           </li>
-          <li>
+          <li class="team__list__element"> 
             <img
               src="./images/teammember4.jpg"
               width="270"
@@ -252,10 +252,10 @@
             <h3 class="team__member-name">Tyler Moore</h3>
             <p class="team__member-description">UI Designer</p>
             <ul class="team__member-socials">
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+              <li class="team__member-socials__element"><a href="#" class="team__member-socials__element__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
             </ul>
             </div>
           </li>
@@ -265,7 +265,7 @@
       </section>
       <section class="clients section">
         <div class="container">
-           <h2 class="sectionTitle">Regular Customers</h2>
+           <h2 class="section__title">Regular Customers</h2>
            <ul class="clients__list">
             <li><svg class="clients__list-icon" width="170" height="92"><use href="./images/icons.svg#icon-client1"></use></svg></li>
             <li><svg class="clients__list-icon" width="170" height="92"><use href="./images/icons.svg#icon-client2"></use></svg></li>
@@ -303,12 +303,12 @@
           </address>
         </div>
         <div class="footer__socials">
-          <p>find us on</p>
+          <p class="footer__socials__header">find us on</p>
           <ul class="footer__socials__list">
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-              <li><a href="#"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
+              <li><a href="#" class="footer__socials__list__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
+              <li><a href="#" class="footer__socials__list__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+              <li><a href="#" class="footer__socials__list__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+              <li><a href="#" class="footer__socials__list__link"><svg class="" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
             </ul>
         </div>
        <form class="footer__newsletter">

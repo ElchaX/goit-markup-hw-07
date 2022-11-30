@@ -12,7 +12,7 @@ body {
 .section {
   padding-block: 94px;
 }
-.sectionTitle {
+.section__title {
   font-size: 36px;
   line-height: 1.17;
   font-family: Raleway;
@@ -24,14 +24,14 @@ body {
   max-width: 1200px;
   padding: 0 15px;
 }
-.emptyHeader {
+.header-empty {
   display: inline-block;
   height: 0;
 }
-.overflowContainer {
+.overflow-container {
   position: relative;
   overflow: hidden;
 }
-.overflowContainer img {
+.overflow-container img {
   display: block;
 }

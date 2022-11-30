@@ -41,7 +41,7 @@
 .footer__socials {
   padding-block: 60px;
 }
-.footer__socials p {
+.footer__socials__header {
   text-transform: uppercase;
   font-family: Roboto;
   font-size: 14px;
@@ -57,7 +57,7 @@
   gap: 10px;
   fill: var(--main-color);
 }
-.footer__socials__list li a {
+.footer__socials__list__link {
   display: block;
   border-radius: 50%;
   height: 44px;
@@ -67,13 +67,11 @@
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__socials__list li a:hover,
-.footer__socials__list li a:focus {
+.footer__socials__list__link:hover,
+.footer__socials__list__link:focus {
   background-color: var(--secondary-color);
 }
-.logoFooterColor {
-  color: var(--main-color);
-}
+
 .footer__newsletter-header {
   display: block;
   color: var(--main-color);

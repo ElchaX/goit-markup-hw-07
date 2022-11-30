@@ -116,13 +116,15 @@
   background: #ffffff;
   border: 2px solid rgba(33, 33, 33, 1);
   border-radius: 2px;
-  position: absolute;
   top: 5px;
   left: 10px;
   transition: border 0.05s, fill 0.05s, background-color 0.05s;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
-
+.modal__checkbox:checked {
+  outline: 0;
+  color: green;
+}
 .modal__checkbox:checked + span svg {
   background-color: var(--secondary-color);
   border: 0;
